@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Home Kid</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="notifications-outline"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-grid>
+    <ion-accordion-group expand="inset">
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>Seleciona Conta</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Matheus (exemplo)</div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-grid>
+
+  <div class="container">
+    <div class="categorias">
+      <h3>Modo</h3>
+      <h5>Individual</h5>
+    </div>
+
+  </div>
+</ion-content>
